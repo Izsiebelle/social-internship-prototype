@@ -1,0 +1,19 @@
+.hero-img {
+    background: url('../images/KC-skyline.png')no-repeat center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    width: 30rem;
+}
+
+.section-header {
+    display: flex;
+}
+
+.logo {
+    width: 3rem;
+    margin-left: 1rem;
+}
