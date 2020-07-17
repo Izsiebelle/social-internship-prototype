@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Intro";
+    src: url('../fonts/Intro/IntroDemo-BlackInlineCAPS.ttf');
+}
+
+@font-face {
+    font-family: "monseratt";
+    src: url('../fonts/monseratt/Montserrat-SemiBold.ttf');
+}

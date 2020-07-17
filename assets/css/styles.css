@@ -1,19 +1,97 @@
-.hero-img {
-    background: url('../images/KC-skyline.png')no-repeat center;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-text {
-    width: 30rem;
-}
-
-.section-header {
-    display: flex;
-}
-
-.logo {
-    width: 3rem;
-    margin-left: 1rem;
-}
+  @import './fonts.css';
+  .main-title {
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-family: Intro;
+  }
+  
+  .sub-title {
+      color: whitesmoke;
+      font-family: monseratt;
+      margin-bottom: 5rem;
+  }
+  
+  .hero-img {
+      background: url('../images/KC-skyline.png')no-repeat center;
+      background-size: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  .hero-text {
+      width: 30rem;
+      margin-top: 5rem;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .section-header {
+      display: flex;
+      font-family: monseratt;
+      font-size: 36px;
+      margin: 3rem;
+  }
+  
+  .logo {
+      width: 3rem;
+      margin-left: 1rem;
+  }
+  
+  .internship-breakdown {
+      background-color: #1c355e;
+      margin-top: 3rem;
+  }
+  
+  .sample-card {
+      background-color: #0f9fc3;
+      border: 3px solid #1c355e;
+      color: white;
+      font-family: monseratt;
+  }
+  
+  .white {
+      color: whitesmoke;
+  }
+  
+  .info-group {
+      margin: 3rem;
+  }
+  
+  .button {
+      padding: 2rem 2.2rem;
+      font: normal 500 24px/28px var(--monsterrat);
+      position: relative;
+      border: 3px solid white;
+      border-radius: 4px;
+      margin-top: 2rem;
+  }
+  
+  .button.primary-button {
+      background: var(--gradient-color);
+      background-clip: padding-box;
+      color: whitesmoke;
+      transition: all 0.6s ease;
+      box-shadow: var(--box-shadow);
+  }
+  
+  .button.primary-button:hover {
+      background: whitesmoke;
+      background-clip: padding-box;
+      color: var(--primary-color);
+  }
+  
+  .button.primary-button::after,
+  .button.secondary-button::after {
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      bottom: -2px;
+      right: -2px;
+      background: #1c355e;
+      content: '';
+      z-index: -1;
+      border-radius: 4px;
+  }
