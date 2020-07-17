@@ -57,7 +57,8 @@
   }
   
   .info-group {
-      margin: 3rem;
+      background-color: #0f9fc3;
+      width: 90%;
   }
   
   .button {
